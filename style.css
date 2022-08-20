@@ -1,0 +1,48 @@
+.carousel{
+    max-width: 900px;
+    padding: 5vmin;
+    margin: auto;
+    margin-top: 2vmin;
+    background-color: #d9f2d9 ;
+}
+.carousel p{ color: green;}
+.carousel h1{
+    color: green;
+}
+.carousel-indicators{
+    position: relative;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: green;
+  height: 3vmin;
+  width: 3vmin;
+  border-radius: 50%;
+}
+.items{
+    max-width: 800px;
+    margin: auto;
+}
+.items p{
+    color: green;
+}
+.items h2{
+    color: green;
+    font-size: 5vmin;
+}
+.items img{
+   width: 30vmin;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.carousel-item{
+    position: relative;
+}
+.stars i{
+  color: green;
+  font-size: 4.5vmin;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+      width: 5vmin;
+      border-radius: 4px;
+     background-color: green;
+}
